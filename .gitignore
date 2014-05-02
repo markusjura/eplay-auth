@@ -1,15 +1,39 @@
-logs
-project/project
-project/target
-target
-tmp
+# play
 .history
-dist
-/.idea
-/*.iml
-/out
-/.idea_modules
-/.classpath
-/.project
-/RUNNING_PID
-/.settings
+bin
+project/target
+project/project
+target/
+RUNNING_PID
+
+# Eclipse
+.cache
+.classpath
+.project
+.scala_dependencies
+.settings
+.target/
+.worksheet/
+*.sc
+
+# IntelliJ
+.idea/
+*.idea
+out/
+*.iml
+*.ipr
+*.iws
+
+# ENSIME
+.ensime
+.ensime_lucene/
+
+# Mac
+.DS_Store
+
+# Log files
+logs
+*.log
+
+# Koan
+.koan.properties
