@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/eplay-auth -Dhttp.port=${PORT} ${SBT_OPTS}
