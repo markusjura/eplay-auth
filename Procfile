@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/eplay-auth -Dhttp.port=$PORT
+web: target/universal/stage/bin/eplay-auth -Dhttp.port=$PORT $JAVA_OPTS
