@@ -1,6 +1,6 @@
-name := "ttt"
+name := "eplay-auth"
 
-version := "1.0-SNAPSHOT"
+version := "1.0"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.1.0" % "test",
