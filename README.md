@@ -13,10 +13,10 @@ Handles the authentication. The following users are valid:
 
 Password for all users is `pass`.
 
-More details can be found in the [REST API documentation](http://eplay-auth.heroku.com)
+More details can be found in the [REST API documentation](http://eplay-auth.herokuapp.com)
 
 #### How to start
-The service is hosted on [http://eplay-auth.markusjura.cloudbees.net](http://eplay-auth.markusjura.cloudbees.net). You can use your local
+The service is hosted on [http://eplay-auth.herokuapp.com](http://eplay-auth.herokuapp.com). You can use your local
 `authService` by:
 
 1. Changing the `service.auth.url` in the *eplay application.conf* to your URL
