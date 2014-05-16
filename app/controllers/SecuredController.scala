@@ -14,7 +14,7 @@ trait SecuredController extends Controller {
       "Access-Control-Max-Age" -> (60 * 60 * 24).toString)
   }
 
-  def CrossOriginResource[A](bp: BodyParser[A] = parse.empty)(f: Request[A] => Future[SimpleResult]): Action[A] = {
+  def CrossOriginResource[A](bp: BodyParser[A] = parse.empty)(f: Request[A] => Future[Result]): Action[A] = {
     Action.async(bp) { request =>
       f(request).map(_.withHeaders(corsHeaders: _*))
     }
