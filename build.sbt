@@ -7,7 +7,7 @@ scalaVersion := "2.10.4"
 resolvers += Resolver.url("Markus Jura fork swagger-play2", url("http://markusjura.github.com/swagger-play2"))(Resolver.ivyStylePatterns)
 
 libraryDependencies ++= Seq(
-  "org.scalatestplus" %% "play" % "1.1.0-RC1" % "test",
+  "org.scalatestplus" %% "play" % "1.2.0" % "test",
   "swagger-play2" %% "swagger-play2" % "1.3.5"
 )
 
